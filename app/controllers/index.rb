@@ -7,14 +7,7 @@ get '/skills/:skill' do
 end
 
 get '/meals' do
-  @meals = ["Spaghetti",
-            "Ravioli",
-            "Hummus and Veggies",
-            "Pizza",
-            "Falafel",
-            "Sushi",
-            "Linguini",
-            "Onigilli"]
+  @meals = ["Spaghetti","Ravioli","Hummus and Veggies","Pizza","Falafel","Sushi","Linguini","Onigilli"]
   erb :meals
 end
 
