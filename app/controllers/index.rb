@@ -11,4 +11,8 @@ get '/meals' do
   erb :meals
 end
 
+post '/color' do
+  response.set_cookie("my_cookie", value: params[:favcolor], domain: "")
+  redirect '/'
+end
 
